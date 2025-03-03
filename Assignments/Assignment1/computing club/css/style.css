@@ -16,3 +16,163 @@ p {
   margin: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.logo-light {
+  width: 100px;   
+  height: 100px;
+  border-radius: 50%;   
+  justify-items: center;  
+}
+.header {
+  text-align: center;
+
+}
+
+.nav-list{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+ 
+  
+}
+.nav-list li{ 
+  display: inline-flex;  
+  margin-right: 0.5rem;
+  color: black;
+ 
+
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: blue;
+}
+.blue-h1{
+  color: blue;
+  
+}
+h1{
+  justify-content: center;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: nowrap;        
+  gap: 0.2rem;               
+  overflow-x: auto;         
+ 
+  
+}
+
+header p{
+  color: black;
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto;         
+  text-shadow: none;
+  box-shadow: none;
+  justify-content: center;
+ 
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;         
+  
+  
+  
+  
+  
+  
+}
+.button1{
+  margin-right: 1rem;
+  border: 0.5px ;
+  border-radius: 40rem;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background-color: blue;
+  height: 40px;
+  width: 120px;
+}
+.button2{
+  
+    
+    border: 0.5px solid;
+    border-radius: 40rem;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    
+}
+
+.button1:hover {
+  background-color: gray;
+}
+.button2:hover{
+  background-color: whitesmoke;
+}
+
+main{
+  margin-top: 10rem;
+  background-color:whitesmoke;
+}
+h2{
+  font-size: 2rem;;
+  display: flex;
+  justify-content: center;
+}
+
+.Activities{
+
+
+
+}
+
+section{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-img{
+  width: 200px;  
+  height: 200px;
+  border-radius: 1px;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;  
+ 
+
+  
+}
+.card-title{
+  position: absolute;
+  top: -210px;
+  left: 12rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border: 10rem;
+  background-color: gainsboro; 
+}
+.card-content{
+  
+}
+  
+

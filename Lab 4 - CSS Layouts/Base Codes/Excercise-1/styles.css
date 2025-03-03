@@ -1,0 +1,45 @@
+@media screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:600px){
+    body{
+        background-color:chocolate;
+    }
+}
+
+
+:root{
+    --p-color:blue;
+    
+}
+
+body{
+    background-color: var(--p-color);
+}
+
+
+@media  screen and (max-width:600px) {
+    :root{
+        --p-color:rgb(30, 204, 210);
+
+    }
+    
+}
+
+
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+/* Dark Mode When Checkbox is Checked */
+:root:has(#theme:checked) {
+    --bg-color: black;
+    --text-color: white;
+    
+}
+
