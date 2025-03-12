@@ -24,6 +24,7 @@ p {
 }
 .header {
   text-align: center;
+  
 
 }
 
@@ -129,6 +130,9 @@ h2{
   font-size: 2rem;;
   display: flex;
   justify-content: center;
+  margin: 200px=px;
+
+  padding: 50px;
 }
 
 .Activities{
@@ -158,6 +162,8 @@ section{
   align-items: center;
   justify-content: center;
   position: relative;  
+  margin: 10px;
+
  
 
   
@@ -172,7 +178,118 @@ section{
   background-color: gainsboro; 
 }
 .card-content{
+  position: absolute;
+  font-weight: bold;
+  top: -150px;  /* Adjusted to position it within the card */
+  left: 200px;
+  box-shadow: none;
+ 
+}
+.QUCC{
+  position: absolute;
+}
+
+.Date{
+  position: absolute;
+  right: 1px;
+  top: -80px;
+  box-shadow: none;
+  font-weight: 100PX;
+  font-size: 15px;
+
+}
+.QUCC{
+  position: absolute;
+  top: -80px;
+  box-shadow: none;
   
 }
+.load{
+  display: flex;
+  justify-content: center;
   
+}
+.Loadmore{
+  position: absolute;
+  
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: gray;
+  color: white;
+  
+}
+.Loadmore:hover{
+  background-color: blue;
+}
+.small-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+
+
+
+
+footer {
+  background-color: white;
+  color: white;
+  
+  display: flex;
+  justify-content: center; 
+  padding: 20px;
+  margin-top: 150px; 
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+
+.foot {
+  font-size: 14px;
+  color: #949494;
+  margin-top: 20px; 
+}
+
+
+.ul-foot {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-foot li {
+  margin: 10px 0; 
+}
+
+.ul-foot a {
+  color: black; 
+  text-decoration: none; /* Remove underline */
+}
+
+/* Optional Image Styling */
+.small-img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px; /* Space between image and text */
+}
+
+.h2-foot{
+  color: black;
+}
+
+
+
+
 
