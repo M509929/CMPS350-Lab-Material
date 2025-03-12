@@ -45,6 +45,7 @@ async function handleCountryChange(e) {
 
     factsArea.innerHTML = convertCountryToHTML(country);
 
+
 }
 
 // helper method

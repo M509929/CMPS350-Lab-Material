@@ -30,18 +30,27 @@ function handleAddTodo(e) {
 
 
 }
-function renderTodos() {
-    todoListContainer.innerHTML = todos.map(todo => todoToHTML(todo)).join('');
+
+function handleClearTodos(e) {
+    todos = [];
+    renderTodos();
 }
+
+
 function deleteTodo(id) {
     const index = todos.findIndex(todo => todo.id === id);
     todos.splice(index, 1);
     renderTodos();
 }
+
 function toggleCompleted(id) {
     const index = todos.findIndex(todo => todo.id === id);
     todos[index].completed = !todos[index].completed;
     renderTodos();
+}
+
+function renderTodos() {
+    todoListContainer.innerHTML = todos.map(todo => todoToHTML(todo)).join('');
 }
 
 function todoToHTML(todo) {
@@ -58,7 +67,3 @@ function todoToHTML(todo) {
 `
 }
 
-function handleClearTodos(e) {
-    todos = [];
-    renderTodos();
-}

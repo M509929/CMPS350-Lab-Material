@@ -1,0 +1,12 @@
+[
+    {
+        "accountNo": 1102,
+        "amount": 200,
+        "transType": "Deposit"
+    },
+    {
+        "accountNo": 1102,
+        "amount": 200,
+        "transType": "Deposit"
+    }
+]
