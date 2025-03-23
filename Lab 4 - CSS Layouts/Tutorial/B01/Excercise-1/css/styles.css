@@ -116,7 +116,7 @@ footer {
 }
 
 /* big screen */
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
 
 
     .main-header {
@@ -125,7 +125,7 @@ footer {
     }
 
 
-}
+} */
 
 /*  */
 
@@ -137,13 +137,11 @@ footer {
     }
 
     header h1 {
-        border-right: 1px solid var(--highlight);
+        border-right:  solid red;
         border-bottom: none;
     }
 
-    nav ul {
-        display: flex;
-    }
+
 
 
 }
