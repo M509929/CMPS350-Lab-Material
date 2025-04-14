@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "transType": "Deposit",
+        "amount": 44444,
+        "accountNo": 2002
+    }
+]

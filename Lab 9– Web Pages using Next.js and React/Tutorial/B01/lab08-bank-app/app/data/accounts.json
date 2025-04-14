@@ -1,0 +1,35 @@
+[
+    {
+        "accountNo": "AC5544",
+        "acctType": "Saving",
+        "balance": "750008000",
+        "firstname": "Ali",
+        "lastname": "Kareem",
+        "email": "ali.kareem@example.com",
+        "dateOpened": "2023-09-01",
+        "gender": "Male",
+        "profileImage": "https://randomuser.me/api/portraits/men/52.jpg"
+    },
+    {
+        "accountNo": "AC3322",
+        "acctType": "Current",
+        "balance": "1200",
+        "firstname": "Layla",
+        "lastname": "Almasi",
+        "email": "layla.almasi@example.com",
+        "dateOpened": "2023-09-20",
+        "gender": "Female",
+        "profileImage": "https://randomuser.me/api/portraits/women/58.jpg"
+    },
+    {
+        "accountNo": "AC1100",
+        "acctType": "Saving",
+        "balance": "45000",
+        "firstname": "Khaled",
+        "lastname": "Majid",
+        "email": "khaled.majid@example.com",
+        "dateOpened": "2023-10-05",
+        "gender": "Male",
+        "profileImage": "https://randomuser.me/api/portraits/men/57.jpg"
+    }
+]

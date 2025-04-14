@@ -14,7 +14,7 @@ export async function POST(req) {
     const account = await req.json();
     const newAccount = await accountRepo.createAccount(account);
     return Response.json(newAccount, { status: 201 });
-   
+
 }
 
 

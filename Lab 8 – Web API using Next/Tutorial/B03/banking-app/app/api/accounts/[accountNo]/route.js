@@ -7,6 +7,13 @@ export async function GET(req, { params }) {
 
 }
 
+export async function DELETE(req, { params }) {
+    const accountNo = params.accountNo;
+    const message = await accountRepo.deleteAccount(accountNo);
+    return Response.json(message, { status: 200 });
+
+}
+
 export async function PUT(req, { params }) {
     const accountNo = params.accountNo;
     const accountUpdates = await req.json();
