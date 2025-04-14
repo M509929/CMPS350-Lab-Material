@@ -11,7 +11,7 @@ function getStudents() {
         let gender = prompt(`Enter the gender of student ${i + 1}: `); 
         let age = Math.floor(Math.random() * (35 - 17 + 1)) + 17;
         let grade = Math.floor(Math.random() * 101);
-       const Student_obj={ name, gender, age, grade };
+       const Student_obj={  "name:",name, gender, age, grade };
        Students.push(Student_obj);
     }
 
