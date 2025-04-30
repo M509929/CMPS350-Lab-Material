@@ -1,0 +1,22 @@
+{
+  "name": "lab10-bank-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "fs-extra": "^11.1.1",
+    "nanoid": "^4.0.2",
+    "next": "15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
+  }
+}

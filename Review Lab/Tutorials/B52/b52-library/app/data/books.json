@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "1984",
+        "genre": "Dystopian",
+        "publishedYear": 1949,
+        "description": "A chilling dystopian novel about totalitarianism, surveillance, and the dangers of absolute power.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+        "authorId": 1
+    },
+    {
+        "id": 2,
+        "title": "Animal Farm",
+        "genre": "Political Satire",
+        "publishedYear": 1945,
+        "description": "A political allegory using farm animals to reflect events leading up to the Russian Revolution.",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Animal_Farm_-_1st_edition.jpg",
+        "authorId": 1
+    },
+    {
+        "id": 3,
+        "title": "Pride and Prejudice",
+        "genre": "Romance",
+        "publishedYear": 1813,
+        "description": "A classic love story set in 19th-century England, exploring issues of class, marriage, and society.",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/8/89/PrideAndPrejudiceTitlePage.jpg",
+        "authorId": 2
+    },
+    {
+        "id": 4,
+        "title": "Emma",
+        "genre": "Romance",
+        "publishedYear": 1815,
+        "description": "A witty novel about youthful hubris and romantic misunderstandings in the English countryside.",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/1/1e/EmmaTitlePage.jpg",
+        "authorId": 2
+    },
+    {
+        "id": 5,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": "Fantasy",
+        "publishedYear": 1997,
+        "description": "The magical journey of a young wizard discovering his true heritage at Hogwarts School.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/6b/HP1cover.jpg",
+        "authorId": 3
+    },
+    {
+        "id": 6,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "genre": "Fantasy",
+        "publishedYear": 1998,
+        "description": "Harry Potter's second year at Hogwarts is filled with mystery, danger, and dark secrets.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/3/32/Harry_Potter_and_the_Chamber_of_Secrets.jpg",
+        "authorId": 3
+    },
+    {
+        "id": 7,
+        "title": "Adventures of Huckleberry Finn",
+        "genre": "Adventure",
+        "publishedYear": 1884,
+        "description": "A young boy and a runaway slave journey down the Mississippi River in search of freedom.",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/6/65/Huckleberry_Finn_book.JPG",
+        "authorId": 4
+    },
+    {
+        "id": 8,
+        "title": "The Adventures of Tom Sawyer",
+        "genre": "Adventure",
+        "publishedYear": 1876,
+        "description": "The mischievous adventures of a boy growing up along the Mississippi River.",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tom_Sawyer_1876_frontispiece.jpg",
+        "authorId": 4
+    },
+    {
+        "id": 9,
+        "title": "Murder on the Orient Express",
+        "genre": "Mystery",
+        "publishedYear": 1934,
+        "description": "Detective Hercule Poirot investigates a murder on a luxurious train trapped in a snowstorm.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/9/9e/Murder_on_the_Orient_Express_First_Edition_Cover_1934.jpg",
+        "authorId": 5
+    },
+    {
+        "id": 10,
+        "title": "And Then There Were None",
+        "genre": "Mystery",
+        "publishedYear": 1939,
+        "description": "Ten strangers are trapped on an island and mysteriously murdered one by one.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/d/db/And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg",
+        "authorId": 5
+    }
+]

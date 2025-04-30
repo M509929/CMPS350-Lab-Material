@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model author {
+  id    Int     @id @default(autoincrement())
+  name  String
+  photo String
+  bio   String
+  books book[]
+}
+
+model book {
+  id            Int    @id @default(autoincrement())
+  title         String
+  genre         String
+  publishedYear Int
+  description   String
+  cover         String
+  authorId      Int
+  author        author @relation(fields: [authorId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+}
+
+//  {
+//       "id": 1,
+//       "title": "1984",
+//       "genre": "Dystopian",
+//       "publishedYear": 1949,
+//       "description": "A chilling dystopian novel about totalitarianism, surveillance, and the dangers of absolute power.",
+//       "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+//       "authorId": 1
+//   },
+//  {
+//         "id": 2,
+//         "name": "Jane Austen",
+//         "photo": "https://cdn.britannica.com/12/172012-050-DAA7CE6B/Jane-Austen-Cassandra-engraving-portrait-1810.jpg",
+//         "bio": "Jane Austen (1775–1817) was an English novelist known primarily for her six major novels, including 'Pride and Prejudice' and 'Emma', which interpret, critique, and comment on British landed gentry at the end of the 18th century."
+//     },

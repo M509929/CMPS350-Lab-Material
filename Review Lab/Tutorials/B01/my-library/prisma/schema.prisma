@@ -1,0 +1,47 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model author {
+  id    Int    @id @default(autoincrement())
+  name  String
+  photo String
+  bio   String
+  books book[]
+}
+
+model book {
+  id            Int    @id @default(autoincrement())
+  title         String
+  genre         String
+  publishedYear Int
+  description   String
+  cover         String
+  authorId      Int
+  author        author @relation(fields: [authorId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+}
+
+//  {
+//       "id": 1,
+//       "name": "George Orwell",
+//       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg",
+//       "bio": "George Orwell (1903–1950) was an English novelist, essayist, journalist, and critic, best known for his dystopian novels '1984' and 'Animal Farm'. His works explore social injustice, totalitarianism, and democratic socialism."
+//   },
+
+//   {
+//     "id": 1,
+//     "title": "1984",
+//     "genre": "Dystopian",
+//     "publishedYear": 1949,
+//     "description": "A chilling dystopian novel about totalitarianism, surveillance, and the dangers of absolute power.",
+//     "cover": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+//     "authorId": 1
+// },

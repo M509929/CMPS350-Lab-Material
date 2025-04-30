@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "George Orwell",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg",
+        "bio": "George Orwell (1903–1950) was an English novelist, essayist, journalist, and critic, best known for his dystopian novels '1984' and 'Animal Farm'. His works explore social injustice, totalitarianism, and democratic socialism."
+    },
+    {
+        "id": 2,
+        "name": "Jane Austen",
+        "photo": "https://cdn.britannica.com/12/172012-050-DAA7CE6B/Jane-Austen-Cassandra-engraving-portrait-1810.jpg",
+        "bio": "Jane Austen (1775–1817) was an English novelist known primarily for her six major novels, including 'Pride and Prejudice' and 'Emma', which interpret, critique, and comment on British landed gentry at the end of the 18th century."
+    },
+    {
+        "id": 3,
+        "name": "J.K. Rowling",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg",
+        "bio": "J.K. Rowling (born 1965) is a British author and philanthropist, best known for writing the 'Harry Potter' fantasy series. Her books have won multiple awards and sold more than 500 million copies worldwide."
+    },
+    {
+        "id": 4,
+        "name": "Mark Twain",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mark_Twain_by_AF_Bradley.jpg",
+        "bio": "Mark Twain (1835–1910), born Samuel Langhorne Clemens, was an American writer, humorist, entrepreneur, publisher, and lecturer. He is best remembered for 'The Adventures of Tom Sawyer' and 'Adventures of Huckleberry Finn'."
+    },
+    {
+        "id": 5,
+        "name": "Agatha Christie",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUODHDGsDoMHzi0SAK-2clWdVB2y59AoYYXgXkuOr5nKkgwmzp-qC5Rrx5mTpqBe3Bnrk&usqp=CAU",
+        "bio": "Agatha Christie (1890–1976) was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple. She is often called the 'Queen of Mystery'."
+    }
+]

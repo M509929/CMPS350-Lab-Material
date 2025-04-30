@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Ahmed Al-Sayed",
+        "email": "ahmed.alsayed@nutrisnap.com"
+    },
+    {
+        "id": 2,
+        "name": "Fatima Zahra",
+        "email": "fatima.zahra@nutrisnap.com"
+    },
+    {
+        "id": 3,
+        "name": "Omar Khalid",
+        "email": "omar.khalid@nutrisnap.com"
+    },
+    {
+        "id": 4,
+        "name": "Aisha Noor",
+        "email": "aisha.noor@nutrisnap.com"
+    },
+    {
+        "id": 5,
+        "name": "Yusuf Rahman",
+        "email": "yusuf.rahman@nutrisnap.com"
+    },
+    {
+        "id": 6,
+        "name": "Maryam Hussein",
+        "email": "maryam.hussein@nutrisnap.com"
+    },
+    {
+        "id": 7,
+        "name": "Bilal Ahmed",
+        "email": "bilal.ahmed@nutrisnap.com"
+    },
+    {
+        "id": 8,
+        "name": "Hassan Ali",
+        "email": "hassan.ali@nutrisnap.com"
+    },
+    {
+        "id": 9,
+        "name": "Layla Amira",
+        "email": "layla.amira@nutrisnap.com"
+    },
+    {
+        "id": 10,
+        "name": "Ibrahim Zaid",
+        "email": "ibrahim.zaid@nutrisnap.com"
+    }
+]

@@ -1,0 +1,61 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model account {
+  accountNo      String        @id @default(cuid())
+  firstname      String
+  lastname       String
+  acctType       String
+  balance        Float
+  email          String
+  dateOpened     String
+  gender         String
+  minimumBalance Float?        @default(0)
+  profileImage   String?
+  // createdAt    DateTime @default(now())
+  transaction    transaction[]
+}
+
+// cuid() generates a unique identifier for the accountNo field
+// it makes sure that each account has a unique identifier by using a combination of the current timestamp and a random string
+// the @id directive indicates that this field is the primary key for the account model
+// the @default(cuid()) directive indicates that this field should be automatically populated with a unique identifier when a new account is created
+
+model transaction {
+  transId        String   @id @default(cuid())
+  accountNo      String
+  transType      String
+  amount         Float
+  accountBalance Float
+  createdAt      DateTime @default(now())
+  account        account  @relation(fields: [accountNo], references: [accountNo])
+}
+
+/**
+ * "accountNo": "AC9mVA",
+ * "transType": "Deposit",
+ * "amount": 226,
+ * "transId": "D0SR",
+ * "accountBalance": 562
+ */
+
+// {
+//         "accountNo": "AC1102",
+//         "firstname": "Yusuf",
+//         "lastname": "Saleh",
+//         "acctType": "Saving",
+//         "balance": 250000,
+//         "email": "yusuf.saleh@example.com",
+//         "dateOpened": "",
+//         "gender": "Male",
+//         "profileImage": "https://randomuser.me/api/portraits/men/30.jpg"
+//     },

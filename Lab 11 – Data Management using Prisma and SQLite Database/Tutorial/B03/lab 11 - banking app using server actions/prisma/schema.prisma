@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model account {
+  accountNo      String        @id @default(cuid())
+  firstname      String
+  lastname       String
+  minimumBalance Float?
+  acctType       String
+  balance        Float
+  email          String
+  dateOpened     String
+  gender         String
+  profileImage   String?
+  transactions   transaction[]
+}
+
+model transaction {
+  transId        String   @id @default(cuid())
+  transType      String
+  amount         Float
+  accountBalance Float?
+  dateCreated    DateTime @default(now())
+  accountNo      String
+  account        account  @relation(fields: [accountNo], references: [accountNo])
+}
+
+// {
+// "accountNo": "AC1102",
+// "transType": "Deposit",
+// "amount": 1000,
+// "transId": "psE8",
+// "accountBalance": 1811
+// },
+
+// {
+// "accountNo": "AC1102",
+// "firstname": "Yusuf",
+// "lastname": "Saleh",
+// "acctType": "Saving",
+// "balance": 250000,
+// "email": "yusuf.saleh@example.com",
+// "dateOpened": "2023-04-05T00:00:00.000Z",
+// "gender": "Male",
+// "profileImage": "https://randomuser.me/api/portraits/men/30.jpg"
+// }

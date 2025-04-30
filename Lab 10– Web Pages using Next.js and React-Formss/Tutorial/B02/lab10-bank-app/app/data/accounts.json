@@ -1,0 +1,13 @@
+[
+    {
+        "firstname": "Ali",
+        "lastname": "Omar",
+        "acctType": "Saving",
+        "balance": -1000,
+        "email": "asma@qu.edu.qa",
+        "dateOpened": "2025-04-09",
+        "gender": "Male",
+        "profileImage": "http://localhost:3000/accounts/upsert",
+        "accountNo": "nN4e"
+    }
+]
