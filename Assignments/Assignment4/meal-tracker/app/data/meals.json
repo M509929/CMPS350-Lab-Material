@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Grilled Chicken Salad",
+    "tags": [
+      "high-protein",
+      "lunch"
+    ],
+    "calories": 219,
+    "description": "Grilled chicken breast with lettuce, cherry tomatoes, and light dressing.",
+    "satisfaction": 4,
+    "ratings": [
+      4
+    ],
+    "date": "2025-05-02T22:38",
+    "image": "https://www.maebells.com/wp-content/uploads/2024/06/Grilled-Chicken-Caesar-Salad-14.jpg"
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "title": "Beef Stir Fry",
+    "tags": [
+      "high-protein",
+      "dinner",
+      "asian"
+    ],
+    "calories": 600,
+    "description": "Beef strips stir-fried with bell peppers, onions, and soy sauce.",
+    "satisfaction": 4,
+    "ratings": [
+      4
+    ],
+    "date": "2025-04-14T18:45:00Z",
+    "image": "https://www.allrecipes.com/thmb/hwJEcGlPLTAMhmrYArcBf3DlqvE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/228823-quick-beef-stir-fry-DDMFS-4x3-1f79b031d3134f02ac27d79e967dfef5.jpg"
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "title": "Fruit Smoothie",
+    "tags": [
+      "snack",
+      "drink",
+      "vegetarian"
+    ],
+    "calories": 220,
+    "description": "A mix of banana, strawberries, and almond milk blended into a smoothie.",
+    "satisfaction": 5,
+    "ratings": [
+      5
+    ],
+    "date": "2025-04-15T16:10:00Z",
+    "image": "https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg"
+  },
+  {
+    "id": 5,
+    "userId": 1,
+    "title": "Tuna Sandwich",
+    "tags": [
+      "quick",
+      "protein",
+      "lunch"
+    ],
+    "calories": 200,
+    "description": "Whole grain bread with tuna, mayo, and lettuce.",
+    "satisfaction": 3,
+    "ratings": [
+      3
+    ],
+    "date": "2025-05-02T23:49",
+    "image": "https://images.pexels.com/photos/1600713/pexels-photo-1600713.jpeg"
+  },
+  {
+    "userId": 1,
+    "title": "Burger",
+    "description": "Burger",
+    "calories": 250,
+    "date": "2025-05-02T23:29",
+    "image": "https://www.bing.com/images/search?view=detailV2&ccid=g%2fEYshV4&id=DFF85F6DED3CD9070DA8BB589285A13D551447C9&thid=OIP.g_EYshV4TBrKFonMmN2KEgHaE7&mediaurl=https%3a%2f%2fi0.wp.com%2fthenutritionadventure.com%2fwp-content%2fuploads%2f2017%2f07%2fPourHouseAmericanBurger.jpg%3fresize%3d5236%252C3490&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.83f118b215784c1aca1689cc98dd8a12%3frik%3dyUcUVT2hhZJYuw%26pid%3dImgRaw%26r%3d0&exph=3490&expw=5236&q=burger&simid=608028093014544709&FORM=IRPRST&ck=4B6542DA0C3F613CFCD835C3045640B6&selectedIndex=0&itb=0",
+    "tags": [
+      "Snak"
+    ],
+    "satisfaction": 5,
+    "id": 6
+  }
+]
